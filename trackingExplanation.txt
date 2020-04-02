@@ -1,0 +1,17 @@
+/////////Continuous Tracking VR Experiment////////////
+
+Overview:
+Perception of motion-through-depth is critical for interacting with objects in a dynamic three-dimensional (3D) world. Surprisingly, when only binocular cues are available, continuous tracking of motion-through-depth is selectively impaired relative to fronto-parallel motion tracking (Bonnen et al., 2017). This relative impairment is a result of both geometric constraints and the sluggish nature of disparity processing. Here, we extend Bonnen et al.’s continuous 3D tracking task to virtual reality (VR) to test whether the deficit in the depth component of tracking persisted in a rich, immersive, realistic 3D environment.
+
+Trials:
+Subjects will undergo 50 tracking trials, consisting of using a cursor (controlled by the HTC Vive controller) to track a target object moving randomly through depth. The environment should contain reference objects—for example, a combination of static and floating objects throughout the room. Independent variables will include: monocular vs. binocular (subject wears an eyepatch or not), motion parallax (whether participants are allowed to move freely or remain in a chinrest), shadows (whether objects in the environment cast shadows), size-change cues (whether objects provide looming cues as they move in depth or remain constant in size), and density of reference objects (whether the room is densely packed or more sparse). There should be 5 repetitions of each of these 10 conditions, with each trial randomized using Sampling-Without-Replacement.
+
+Data:
+Position information should be tracked for the cursor controlled by the Vive controller, the target object, and all reference objects.  
+-- A configuration file is created at the start of the experiment, recording the subject name, date/time of experiment, list of possible conditions, and the full order of condition appearance by trial.
+-- The data file will record time, framerate, trial number, and condition alongside frame-by-frame position and rotation of the cursor, target, and reference objects.
+
+Method:
+
+Subjects start in a room that contains textured walls and floors. Reference objects and the participant’s cursor should be visible, along with an indicator on the floor where the participant should stand to start the trial. When the experimenter presses “play,” the target object should appear in front of the participant and begin its random movement in 3D. The participant should use their cursor to track the target object for the duration of its random movement (10 sec). On completion of the 10 sec trial, the target should disappear, and the participant should move back to the starting point. Upon completion of all 50 trials, the console outputs "End of Experiment."
+

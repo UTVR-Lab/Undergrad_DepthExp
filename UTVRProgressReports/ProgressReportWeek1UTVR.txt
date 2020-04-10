@@ -1,0 +1,11 @@
+Week1:
+
+Changes:
+- Added DataWriter File
+- Created Unity file for tracking
+- Started on Code for Tracking
+
+Fixes:
+- Fixing DataWriter File to track record time, framerate, 
+trial number, and condition alongside frame-by-frame position and 
+rotation of the cursor, target, and reference objects.

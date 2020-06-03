@@ -153,7 +153,8 @@ MonoBehaviour:
   target: {fileID: 1953268275}
   output: 
   fileName: test
-  dataObj: []
+  dataObj:
+  - {fileID: 1953268279}
   ID: []
 --- !u!4 &39434124
 Transform:
@@ -322,7 +323,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13418
+  m_Name: pb_Mesh13442
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1114,7 +1115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819444058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.48, y: 7.53, z: -6.48}
+  m_LocalPosition: {x: 4.31, y: 8.94, z: -6.48}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1237,7 +1238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356702482}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.98, y: 13.14, z: -6.63}
+  m_LocalPosition: {x: 3.19, y: 13.14, z: -6.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1358,14 +1359,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pivot: {fileID: 1356702483}
-  speed: 1
+  speed: 2
   target: {fileID: 746696119}
   myX: 0
   myY: 0
   myZ: 0
-  Xrange: 3
-  Yrange: 3
-  Zrange: 3
+  Xrange: 2
+  Yrange: 2
+  Zrange: 2
   comparison: 0.01
   destination: {x: 0, y: 0, z: 0}
 --- !u!4 &1674641464
@@ -1395,7 +1396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pivot: {fileID: 207704004}
-  speed: 1
+  speed: 2
   target: {fileID: 1756030481}
   myX: 0
   myY: 0
@@ -1418,7 +1419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pivot: {fileID: 819444059}
-  speed: 1
+  speed: 2
   target: {fileID: 91869862}
   myX: 0
   myY: 0
@@ -1663,7 +1664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3fa994fc99c1a6d498f17383675a5cd2, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
